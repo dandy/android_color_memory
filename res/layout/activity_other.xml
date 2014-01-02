@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/game_layout" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_marginTop="20dp"
+        android:textColor="#5E6C69"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/score"
+        />
+    
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:id="@+id/color_settings_radio" 
+    android:layout_centerHorizontal="true" android:gravity="center"
+    >
+    <RadioButton android:id="@+id/radio_pirates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 Colors" android:layout_gravity="center|left"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_ninjas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 Colors" android:layout_gravity="center|right"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>
+
+</RelativeLayout>

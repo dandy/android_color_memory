@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="No. of game colors" >
+        
+ 
+        <ListPreference
+            android:key="gameColors"
+            android:entries="@array/colors"
+            android:summary="This is summary of the color settings"
+            android:entryValues="@array/colorsvalues" android:defaultValue="8"
+            android:title="This is title of color settings" />
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>4 colors</item>
+        <item>8 colors</item>
+    </string-array>
+    <string-array name="colorsvalues">
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+     
+</resources>
